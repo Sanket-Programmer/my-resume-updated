@@ -158,6 +158,10 @@ body{
     padding-left: 20px;
 }
 
+.edu ul li h3{
+    font-size: 2vw;
+}
+
 .edu ul p{
     font-family: "Rajdhani", sans-serif;
     font-weight: 500;
@@ -166,7 +170,7 @@ body{
 
 .work {
     position: absolute;
-    top: 105vw;
+    top: 109vw;
     left: 30vw;
     height: 10vw;
     width: 65vw;
@@ -191,7 +195,7 @@ body{
 }
 .hobby {
     position: absolute;
-    top: 122vw;
+    top: 126vw;
     left: 30vw;
     height: 15vw;
     width: 65vw;
@@ -221,7 +225,7 @@ body{
 
 .footer{
     position: absolute;
-    top: 145vw;
+    top: 150vw;
     left: 1vw;
     height: 5vw;
     width: 95%;
@@ -233,11 +237,11 @@ body{
     font-size: 2vw;
 }
 
-@media (min-width:768px){
+@media (max-width:768px){
 
     .contact{
         position: absolute;
-        height: 137vw;
+        height: 142vw;
     }
     
     .profile {
@@ -253,7 +257,7 @@ body{
         position: absolute;
         left: 33vw;
         top: 54vw;
-        height: 42vw;
+        height: 45vw;
         width: 60vw; 
         box-shadow: 5px 5px 10px 5px grey;
         border-radius: 15px;
@@ -262,7 +266,7 @@ body{
     .work{
         position: absolute;
         left: 33vw;
-        top: 105.5vw;
+        top: 109vw;
         width: 60vw;
         box-shadow: 5px 5px 10px 5px grey;
         border-radius: 15px;
@@ -271,7 +275,7 @@ body{
     .hobby{
         position: absolute;
         left: 33vw;
-        top: 125.5vw;
+        top: 129vw;
         height: 12vw;
         width: 60vw;
         box-shadow: 5px 5px 10px 5px grey;
@@ -294,10 +298,10 @@ body{
     }
 }
 
-@media (min-width:481px){
+@media (max-width:481px){
     .contact{
         position: absolute;
-        height: 137vw;
+        height: 141vw;
     }
     
     .profile {
@@ -314,7 +318,7 @@ body{
         position: absolute;
         left: 37vw;
         top: 56vw;
-        height: 40vw;
+        height: 45vw;
         width: 53vw; 
         box-shadow: 5px 5px 10px 1px grey;
         border-radius: 10px;
@@ -324,7 +328,7 @@ body{
     .work{
         position: absolute;
         left: 37vw;
-        top: 107vw;
+        top: 112vw;
         height: 8vw;
         width: 53vw;
         box-shadow: 5px 5px 10px 1px grey;
@@ -335,7 +339,7 @@ body{
     .hobby{
         position: absolute;
         left: 37vw;
-        top: 126vw;
+        top: 131vw;
         height: 12vw;
         width: 53vw;
         box-shadow: 5px 5px 10px 1px grey;
