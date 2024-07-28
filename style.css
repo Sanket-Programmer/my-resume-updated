@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+}
+.title img{
+    width: 100%;
+    height: 30vw;
+    filter: brightness(0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.title h1{
+    position: absolute;
+    top: 7vw;
+    left: 47vw;
+    color: aliceblue;
+    font-size: 3vw;
+    z-index: 2;
+}
+.title h1 .name{
+    font-size: 6vw;
+}
+
+.title p{
+    position: absolute;
+    top: 15vw;
+    left: 58vw;
+    color: aliceblue;
+    font-size: 2.5vw;
+    z-index: 2;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contact{
+    height: 138vw;
+    width: 25vw;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    z-index: 3;
+    border-top-right-radius:1000px ;
+    border-bottom-right-radius: 1000px;
+}
+
+.contact > img{
+   position: relative;
+   top: 15vw;  
+   left: 1vw; 
+   height: 20vw;
+   border-radius: 50%;
+   border: 0.75vw solid antiquewhite;
+}
+
+.contact h1{
+    color: white;
+    position: relative;
+    top: 17vw;
+    font-size: 2vw;
+}
+
+.contact hr{
+    position: relative;
+    top: 17vw;
+}
+
+.contact ul{
+    color: white;
+    position: relative;
+    top: 17vw;
+    left: 1vw;
+    font-size: 1.5vw;
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.contact li{
+    margin-top: 2vw;
+}
+
+.contact .follow{
+    position: relative;
+    top: 21vw;
+}
+
+.contact #follow{
+    position: relative;
+    top: 21vw;
+}
+
+.contact #social
+{
+    position: relative;
+    top: 21vw;
+    font-size: 1.5vw;
+}
+
+.contact #skill{
+    position: relative;
+    top: 25vw;
+}
+
+.contact ul .bi{
+    height: 2vw;
+}
+
+.profile {
+    position: absolute;
+    top: 33vw;
+    left: 30vw;
+    height: 15vw;
+    width: 65vw;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 5px grey;
+    border-radius: 20px;
+    font-size: 1.5vw;
+}
+
+.profile h2{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5vw;
+    margin: 0;
+}
+
+.profile p{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.edu{
+    position: absolute;
+    top: 55vw;
+    left: 30vw;
+    height: 43vw;
+    width: 65vw;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 5px grey;
+    border-radius: 20px;
+    font-size: 1.5vw;
+}
+
+.edu h2{
+    font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5vw;
+    margin: 0;
+}
+
+.edu ul{
+    padding-left: 20px;
+}
+
+.edu ul p{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.work {
+    position: absolute;
+    top: 105vw;
+    left: 30vw;
+    height: 10vw;
+    width: 65vw;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 5px grey;
+    border-radius: 20px;
+    font-size: 1.5vw;
+}
+
+.work h2{
+    font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5vw;
+    margin: 0;
+}
+
+.work p{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.hobby {
+    position: absolute;
+    top: 122vw;
+    left: 30vw;
+    height: 15vw;
+    width: 65vw;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 5px grey;
+    border-radius: 20px;
+    font-size: 1.5vw;
+}
+
+.hobby h2{
+    font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5vw;
+    margin: 0;
+}
+
+.hobby ul{
+    padding-left: 20px;
+}
+
+.hobby ul{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.footer{
+    position: absolute;
+    top: 145vw;
+    left: 1vw;
+    height: 5vw;
+    width: 95%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 2vw;
+}
+
+@media (max-width:768px){
+
+    .contact{
+        position: absolute;
+        height: 137vw;
+    }
+    
+    .profile {
+        position: absolute;
+        left: 33vw;
+        height: 11vw;
+        width: 60vw;
+        box-shadow: 5px 5px 10px 5px grey;
+        border-radius: 15px;
+    }
+
+    .edu{
+        position: absolute;
+        left: 33vw;
+        top: 54vw;
+        height: 42vw;
+        width: 60vw; 
+        box-shadow: 5px 5px 10px 5px grey;
+        border-radius: 15px;
+    }
+
+    .work{
+        position: absolute;
+        left: 33vw;
+        top: 105.5vw;
+        width: 60vw;
+        box-shadow: 5px 5px 10px 5px grey;
+        border-radius: 15px;
+    }
+
+    .hobby{
+        position: absolute;
+        left: 33vw;
+        top: 125.5vw;
+        height: 12vw;
+        width: 60vw;
+        box-shadow: 5px 5px 10px 5px grey;
+        border-radius: 15px;
+    }
+
+    .hobby ul{
+        padding-left: 11px;
+    }
+
+    .footer{
+        position: absolute;
+        left: 1.75vw;
+        top: 150vw;
+        width: 90%;
+    }
+
+    .edu ul{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width:468px){
+    .contact{
+        position: absolute;
+        height: 137vw;
+    }
+    
+    .profile {
+        position: absolute;
+        left: 38.5vw;
+        height: 12vw;
+        width: 51vw;
+        box-shadow: 5px 5px 10px 1px grey;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .edu{
+        position: absolute;
+        left: 38.5vw;
+        top: 56vw;
+        height: 40vw;
+        width: 51vw; 
+        box-shadow: 5px 5px 10px 1px grey;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .work{
+        position: absolute;
+        left: 38.5vw;
+        top: 107vw;
+        height: 8vw;
+        width: 51vw;
+        box-shadow: 5px 5px 10px 1px grey;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .hobby{
+        position: absolute;
+        left: 38.5vw;
+        top: 126vw;
+        height: 12vw;
+        width: 51vw;
+        box-shadow: 5px 5px 10px 1px grey;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .footer{
+        position: absolute;
+        left: 1.75vw;
+        top: 150vw;
+        width: 87%;
+    }
+
+    .edu ul{
+        padding-left: 10px;
+    }
+
+    .hobby ul{
+        padding-left: 10px;
+    }
+
+}
