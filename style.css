@@ -301,7 +301,7 @@ body{
 @media (max-width:481px){
     .contact{
         position: absolute;
-        height: 190vw;
+        height: 185vw;
         border-bottom-right-radius: 0px;
     }
     
