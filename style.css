@@ -35,7 +35,7 @@ body{
 }
 
 .contact{
-    height: 138vw;
+    height: 155vw;
     width: 25vw;
     background-color: black;
     position: absolute;
@@ -43,7 +43,6 @@ body{
     padding: 20px;
     z-index: 3;
     border-top-right-radius:1000px ;
-    border-bottom-right-radius: 1000px;
 }
 
 .contact > img{
@@ -226,9 +225,9 @@ body{
 .footer{
     position: absolute;
     top: 150vw;
-    left: 1vw;
+    left: 30vw;
     height: 5vw;
-    width: 95%;
+    width: 65vw;
     padding: 20px;
     text-align: center;
 }
@@ -237,11 +236,12 @@ body{
     font-size: 2vw;
 }
 
-@media (max-width:768px){
+@media (max-width:1200px){
 
     .contact{
         position: absolute;
-        height: 142vw;
+        height: 155vw;
+        border-bottom-right-radius: 0px;
     }
     
     .profile {
@@ -288,9 +288,9 @@ body{
 
     .footer{
         position: absolute;
-        left: 1.75vw;
+        left: 33vw;
         top: 150vw;
-        width: 90%;
+        width: 60vw;
     }
 
     .edu ul{
@@ -301,7 +301,8 @@ body{
 @media (max-width:481px){
     .contact{
         position: absolute;
-        height: 141vw;
+        height: 180vw;
+        border-bottom-right-radius: 0px;
     }
     
     .profile {
@@ -349,9 +350,18 @@ body{
 
     .footer{
         position: absolute;
-        left: 1.75vw;
+        left: 36vw;
         top: 175vw;
-        width: 87%;
+        width: 53vw;
     }
+
+       .edu ul{
+        padding-left: 8px;
+    }
+
+    .hobby ul{
+        padding-left: 8px;
+    }
+
 
 }
