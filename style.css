@@ -236,7 +236,7 @@ body{
     font-size: 2vw;
 }
 
-@media (max-width:1200px){
+@media (max-width:768px){
 
     .contact{
         position: absolute;
@@ -301,7 +301,7 @@ body{
 @media (max-width:481px){
     .contact{
         position: absolute;
-        height: 185vw;
+        height: 190vw;
         border-bottom-right-radius: 0px;
     }
     
